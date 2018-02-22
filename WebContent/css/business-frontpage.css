@@ -1,0 +1,158 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 300px;
+    background-image: url("../img/integration.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 5px 0;
+}
+
+body {
+    font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #546E7A;
+ }
+ 
+ .navbar-fixed-top {
+	 padding-bottom:5px;
+	 padding-top:5px;    
+    top: 0;
+    border-width: 0 0 5px;
+}
+
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.linkMenu{
+	cursor: pointer;
+}
+
+.btn-default {
+	margin-top: 10px;	 
+	margin-left: 5px !important;
+	font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #fff;
+    background-color: #4c8bcd;
+    border-color: #ccc;
+}
+
+ 
+.glyphicon {	
+	font-size: 16px;
+} 
+ 
+.page-scroll{	
+	font-size: 16px;
+} 
+ 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 5px;
+    font-size: 18px;
+}
+
+.navbar-default { 
+	background-color: #fff;
+	/*background-color: #4c8bcd;*/
+	border-color: #4c8bcd;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #00ace9;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #00ace9;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+background-color: #4c8bcd;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+color: #00ace9;
+background-color: #577ac1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+background-color: #4c8bcd;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #00ace9;
+background-color: #577ac1;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #00ace9;
+background-color: #577ac1;
+}
+.navbar-default .navbar-toggle {
+border-color: #4c8bcd;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #577ac1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+color: #00ace9;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+color: #00ace9;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+color: #00ace9;
+background-color: #577ac1;
+}
+}
+

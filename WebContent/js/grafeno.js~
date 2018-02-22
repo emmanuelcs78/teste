@@ -1,0 +1,8 @@
+function getCaminhoBase(){
+	var contexto = window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));
+	return window.location.href.replace(contexto,'');
+}
+
+function redirectDocs(contexto){
+	window.location.href = getCaminhoBase()+contexto;
+}
